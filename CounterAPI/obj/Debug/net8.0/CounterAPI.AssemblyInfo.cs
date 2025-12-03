@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CounterAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a172abbf1b37833fcdba15d9d1a4875eb0ec8c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f073258193974bfb43ca31647f0b0322b2511bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CounterAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CounterAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
