@@ -1,11 +1,16 @@
+﻿using Microsoft.EntityFrameworkCore;
+using CounterAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add database
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite("Data Source=f1cars.db"));
 
 var app = builder.Build();
 
